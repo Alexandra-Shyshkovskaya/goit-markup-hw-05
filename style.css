@@ -310,6 +310,36 @@ img {
   margin-right: 30px;
 }
 
+.picture-title {
+  display: flex;
+ 
+  position: relative;
+  overflow: hidden;
+  
+}
+
+.picture-title > .text-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  
+  width: 370px;
+  height: 70px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgba(47, 48, 58, 0.8);
+  color: var(--background-color);
+ 
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 /*наша команда*/
 
 .comands {
